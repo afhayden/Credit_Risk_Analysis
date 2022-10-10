@@ -38,7 +38,7 @@ THe Balance Accuracy Socre was 83.25%.
 
 This technique deteriorated the model, reducing the F1 score for both high-risk and low-risk accuracy.
 
-![RandomOverSampler  Imbalance Classification Report](Images/RandomOversampler_Rpt.png)
+![RandomOverSampler  Imbalance Classification Report](Images/RandomOverSampler_Rpt.png)
 
 ### SMOTE Oversampling Technique
 Using IMBLearn's synthetic minority oversampling technique (SMOTE) approach, this technique produced a model with a Balanced Accuracy Score of 84.41%. 
