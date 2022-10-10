@@ -24,12 +24,12 @@ Using LogisticsRegressions, the baseline model shows an accuracy score of 99.5% 
 
 The Baseline Classification Report shows a very low F1 Score of 33% for identifying high-risk loans, verses 100% for low-risk loans.
 
-![Basline Classification Report](Images/Baseline_Classification_Rpt.PNG)
+![Basline Classification Report](Images/Baseline_Classification_Rpt.png)
 
 ### Baseline Imbalanced Classification Report
 Based on the Baseline Model, there is a need to try Oversampling in order to create a more balanced and improved model.
 
-![Basline Imbalance Classification Report](Images/Baseline_Imbalanced_Classification_Rpt.PNG)
+![Basline Imbalance Classification Report](Images/Baseline_Imbalanced_Classification_Rpt.png)
 
 ### RandomOverSampler Technique
 THe Balance Accuracy Socre was 83.25%. 
@@ -43,41 +43,41 @@ This technique deteriorated the model, reducing the F1 score for both high-risk 
 ### SMOTE Oversampling Technique
 Using IMBLearn's synthetic minority oversampling technique (SMOTE) approach, this technique produced a model with a Balanced Accuracy Score of 84.41%. 
 
-![SMOTE Confusion Matrix Display](Images/SMOTE_confusion_matrix.PNG)
+![SMOTE Confusion Matrix Display](Images/SMOTE_confusion_matrix.png)
 
-![SMOTE  Imbalance Classification Report](Images/SMOTE_Oversampling_Rpt.PNG)
+![SMOTE  Imbalance Classification Report](Images/SMOTE_Oversampling_Rpt.png)
 
 ### Cluster Centroids Undersampling Technique
 Similar to the SMOTE approach, Cluster Centroid undersampling technique produced a model that was 82.04% accurate. 
 
-![Cluster Centroids Confusion Matrix Display](Images/ClusterCentroids_under_confusion_matrix.PNG)
+![Cluster Centroids Confusion Matrix Display](Images/ClusterCentroids_under_confusion_matrix.png)
 
-![Cluster Centroids  Imbalance Classification Report](Images/ClusterCentroids_Undersampling_Rpt.PNG)
+![Cluster Centroids  Imbalance Classification Report](Images/ClusterCentroids_Undersampling_Rpt.png)
 
 ## Deliverable 2 - Use the SMOTEENN algorithm to Predict Credit Risk
 Oversampling and Undersampling did not seem to produce a viable model to accurately predict high-risk. A combinatorial approach such as SMOTE and Edited Nearest Neighbors (ENN) aka SMOTEENN was used. 
 
 The approached produced a Balanced Accuracy Score of 84.40%.
 
-![Cluster Centroids Confusion Matrix Display](Images/SMOTEENN_confusion_matrix.PNG)
+![Cluster Centroids Confusion Matrix Display](Images/SMOTEENN_confusion_matrix.png)
 
-![Cluster Centroids  Imbalance Classification Report](Images/SMOTEENN_Classification_Rpt.PNG)
+![Cluster Centroids  Imbalance Classification Report](Images/SMOTEENN_Classification_Rpt.png)
 
 ## Deliverable 3 - Use Ensemble Classifiers to Predict Credit Risk
 
 ### Balanced Random Forest Classifier
 The Balanced Accuracy Socre for the Random Forest approach was 75.89%
 
-![Random Forest Classifier Confusion Matrix Display](Images/RandomForestEnsemble_confusion_matrix.PNG)
+![Random Forest Classifier Confusion Matrix Display](Images/RandomForestEnsemble_confusion_matrix.png)
 
-![Random Forest Classifier  Imbalance Classification Report](Images/Forest_Rpt.PNG)
+![Random Forest Classifier  Imbalance Classification Report](Images/Forest_Rpt.png)
 
 ### Balanced Random Forest Classifier
 The Balanced Accuracy Socre for the Random Forest approach was 75.89%
 
-![Random Forest Classifier Confusion Matrix Display](Images/RandomForestEnsemble_confusion_matrix.PNG)
+![Random Forest Classifier Confusion Matrix Display](Images/RandomForestEnsemble_confusion_matrix.png)
 
-![Random Forest Classifier  Imbalance Classification Report](Images/Forest_Rpt.PNG)
+![Random Forest Classifier  Imbalance Classification Report](Images/Forest_Rpt.png)
 
 The top 5 features of importance and bottom 5 features of least importance are as follows. The features of lease important should be removed from the model.
 
@@ -86,15 +86,15 @@ The top 5 features of importance and bottom 5 features of least importance are a
 ### Easy Ensemble AdaBoost Classifier
 The Balanced Accuracy Socre for the Easy Ensemble AdaBoost approach was 93.19%
 
-![Easy Ensemble AdaBoost Classifier Confusion Matrix Display](Images/AdaBoostEnsemble_confusion_matrix.PNG)
+![Easy Ensemble AdaBoost Classifier Confusion Matrix Display](Images/AdaBoostEnsemble_confusion_matrix.png)
 
-![Easy Ensemble AdaBoost Classifier  Imbalance Classification Report](Images/AdaBoost_Rpt.PNG)
+![Easy Ensemble AdaBoost Classifier  Imbalance Classification Report](Images/AdaBoost_Rpt.png)
 
 
 ## Deliverable 4
 Below is the percentage of 5-Star reviews per type of review over the total.
 
-![Percentage of 5-Star Reviews](images/Question3.PNG)
+![Percentage of 5-Star Reviews](images/Question3.png)
 
 ## Summary
 None of the techniques performed above helped to improved the accuracy for identifying high-risk loans. The highest F1 Score came from the Easy Ensemble AdaBoost Classifer with a score of 0.16 Unforunately, this is still not adequate. All the other resampling models did poorly with 0.06 or less.
