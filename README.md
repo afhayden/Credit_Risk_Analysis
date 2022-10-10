@@ -90,11 +90,5 @@ The Balanced Accuracy Socre for the Easy Ensemble AdaBoost approach was 93.19%
 
 ![Easy Ensemble AdaBoost Classifier  Imbalance Classification Report](Images/AdaBoost_Rpt.png)
 
-
-## Deliverable 4
-Below is the percentage of 5-Star reviews per type of review over the total.
-
-![Percentage of 5-Star Reviews](images/Question3.png)
-
 ## Summary
 None of the techniques performed above helped to improved the accuracy for identifying high-risk loans. The highest F1 Score came from the Easy Ensemble AdaBoost Classifer with a score of 0.16 Unforunately, this is still not adequate. All the other resampling models did poorly with 0.06 or less.
