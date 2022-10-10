@@ -1,4 +1,4 @@
-# Challenge 17 - Credit_Risk_Analysis
+# Challenge 17 - Credit Risk Analysis
 ## Overview of the Analysis
 The following report employs different techniques to train and evaluate models with unbalanced classes to determine credit risk.
 
