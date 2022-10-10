@@ -20,7 +20,7 @@ For this Deliverable 1, three (3) machine learning models were used to resample 
 ### Baseline Model
 Using LogisticsRegressions, the baseline model shows an accuracy score of 99.5% for identifying "low-risk" loans.
 
-![Basline Confusion Matrix Display](Images/basline_confusion_matrix.PNG)
+![Basline Confusion Matrix Display](Images/basline_confusion_matrix.png)
 
 The Baseline Classification Report shows a very low F1 Score of 33% for identifying high-risk loans, verses 100% for low-risk loans.
 
@@ -34,11 +34,11 @@ Based on the Baseline Model, there is a need to try Oversampling in order to cre
 ### RandomOverSampler Technique
 THe Balance Accuracy Socre was 83.25%. 
 
-![RandomOverSampler Confusion Matrix Display](Images/RandomOverSampler_confusion_matrix.PNG)
+![RandomOverSampler Confusion Matrix Display](Images/RandomOverSampler_confusion_matrix.png)
 
 This technique deteriorated the model, reducing the F1 score for both high-risk and low-risk accuracy.
 
-![RandomOverSampler  Imbalance Classification Report](Images/RandomOversampler_Rpt.PNG)
+![RandomOverSampler  Imbalance Classification Report](Images/RandomOversampler_Rpt.png)
 
 ### SMOTE Oversampling Technique
 Using IMBLearn's synthetic minority oversampling technique (SMOTE) approach, this technique produced a model with a Balanced Accuracy Score of 84.41%. 
