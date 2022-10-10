@@ -81,7 +81,7 @@ The Balanced Accuracy Socre for the Random Forest approach was 75.89%
 
 The top 5 features of importance and bottom 5 features of least importance are as follows. The features of lease important should be removed from the model.
 
-![List of top and bottom features](Images/features.PNG)
+![List of top and bottom features](Images/features.png)
 
 ### Easy Ensemble AdaBoost Classifier
 The Balanced Accuracy Socre for the Easy Ensemble AdaBoost approach was 93.19%
